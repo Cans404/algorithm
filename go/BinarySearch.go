@@ -7,6 +7,10 @@ import (
 )
 
 func binarySearch(arr []int, low, high, key int) int {
+	if arr[low] > key || arr[high] < key {
+		return -1
+	}
+
 	// 逐步缩小范围
 	for high-low > 1 {
 		mid := (high + low) / 2

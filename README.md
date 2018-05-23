@@ -1,10 +1,13 @@
 # algorithm
+## catalog
+* sorting
+  * BubbleSort.go
+  * SelectSort.go
+  * InsertSort.go
+  * ShellSort.go
+  * QuickSort.go
+* searching
+  * BinarySearch.go
+* classical problems
+  * HannoiTower.go
 
-## 1. classic sorting algorithm
-<br>
-
-* go/BubbleSort.go
-* go/SelectSort.go
-* go/InsertSort.go
-* go/ShellSort.go
-* go/QuickSort.go
